@@ -238,7 +238,7 @@ void inicializacion()
 	reloj = 0.0;
 	disponibles = total_reserva; //numero de componentes de repuesto
 	radares = total_radares; //numero de radares (5 en principio)
-	// Inicializacion de contadores estadísticos (no inicializados antes)
+	// Inicializacion de contadores estadï¿½sticos (no inicializados antes)
 	veces = 0.0;
 	tiempo_desprotegido = 0.0;
 	porcentaje_desproteccion = 0.0;

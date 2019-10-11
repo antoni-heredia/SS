@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.29)  11 OCT 2019 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.29)  11 OCT 2019 19:49
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1062,7 +1062,7 @@ LaTeX Info: Redefining \nameref on input line 52.
 \@outlinefile=\write6
 \openout6 = `memoria.out'.
 
-<images/logo.png, id=20, 268.00125pt x 189.70876pt>
+<images/logo.png, id=44, 268.00125pt x 189.70876pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 55.
@@ -1153,7 +1153,7 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 86.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-<images/mediaDistancia.png, id=41, 455.45157pt x 255.95625pt>
+<images/mediaDistancia.png, id=71, 455.45157pt x 255.95625pt>
 File: images/mediaDistancia.png Graphic file (type png)
 <use images/mediaDistancia.png>
 Package pdftex.def Info: images/mediaDistancia.png  used on input line 99.
@@ -1200,7 +1200,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 105.
-<images/distanciaPosFinal.png, id=52, 462.528pt x 346.896pt>
+<images/distanciaPosFinal.png, id=82, 462.528pt x 346.896pt>
 File: images/distanciaPosFinal.png Graphic file (type png)
 <use images/distanciaPosFinal.png>
 Package pdftex.def Info: images/distanciaPosFinal.png  used on input line 121.
@@ -1272,7 +1272,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 139.
  [5 <./images/distanciaPosFinal.png>]
-<images/distanciaVisivilidad.png, id=66, 462.528pt x 346.896pt>
+<images/distanciaVisivilidad.png, id=96, 462.528pt x 346.896pt>
 File: images/distanciaVisivilidad.png Graphic file (type png)
 <use images/distanciaVisivilidad.png>
 Package pdftex.def Info: images/distanciaVisivilidad.png  used on input line 14
@@ -1320,7 +1320,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 158.
 [6 <./images/distanciaVisivilidad.png>]
-<images/probabilidad.png, id=75, 462.528pt x 346.896pt>
+<images/probabilidad.png, id=105, 462.528pt x 346.896pt>
 File: images/probabilidad.png Graphic file (type png)
 <use images/probabilidad.png>
 Package pdftex.def Info: images/probabilidad.png  used on input line 162.
@@ -1355,7 +1355,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 166.
 [7]
-<images/prob2.png, id=84, 462.528pt x 346.896pt>
+<images/prob2.png, id=114, 462.528pt x 346.896pt>
 File: images/prob2.png Graphic file (type png)
 <use images/prob2.png>
 Package pdftex.def Info: images/prob2.png  used on input line 169.
@@ -1390,12 +1390,23 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 173.
 [8 <./images/probabilidad.png>]
-<images/falloej1.png, id=92, 698.61pt x 40.65187pt>
+<images/falloej1.png, id=122, 698.61pt x 40.65187pt>
 File: images/falloej1.png Graphic file (type png)
 <use images/falloej1.png>
 Package pdftex.def Info: images/falloej1.png  used on input line 176.
 (pdftex.def)             Requested size: 272.99881pt x 15.88579pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 180.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 180.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 180.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 180.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 180.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 180.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand >>
@@ -1408,47 +1419,204 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 181.
+
+Overfull \hbox (80.5307pt too wide) in paragraph at lines 182--226
+[]
+ []
+
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 226.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 226.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 226.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 226.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 226.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 181.
- [9 <./images/prob2.png> <./images/falloej1.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 226.
+[9 <./images/prob2.png> <./images/falloej1.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 226.
+ [10]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 226.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 227.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 227.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 227.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 227.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 227.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 227.
+
+Overfull \hbox (13.23412pt too wide) in paragraph at lines 228--250
+[]
+ []
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 250.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 250.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 250.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 250.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 250.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 250.
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--272
+
+ []
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 272.
+[11]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 272.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 272.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 273.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
  (./memoria.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: A2B0B70B4F64BAAA4A4B0FE133B1986F;347.
+(rerunfilecheck)             Checksum: 278CE7824C1977D6812CE129403A75C9;780.
  ) 
 Here is how much of TeX's memory you used:
- 13434 strings out of 494284
- 210749 string characters out of 6162693
- 381572 words of memory out of 5000000
- 16529 multiletter control sequences out of 15000+600000
- 9749 words of font info for 34 fonts, out of 8000000 for 9000
+ 13452 strings out of 494284
+ 210960 string characters out of 6162693
+ 386572 words of memory out of 5000000
+ 16537 multiletter control sequences out of 15000+600000
+ 10086 words of font info for 35 fonts, out of 8000000 for 9000
  376 hyphenation exceptions out of 8191
  42i,10n,40p,896b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/antonio/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1200.6
-00pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on memoria.pdf (9 pages, 286112 bytes).
+ </home/antonio/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.6
+00pk> </home/antonio/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx120
+0.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on memoria.pdf (12 pages, 296080 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 26 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 179 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
