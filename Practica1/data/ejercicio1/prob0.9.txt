@@ -1,0 +1,212 @@
+0.9
+INFORME PARCIAL->Posicion inicial: (0)
+Distancia al punto de destino: media 90.873802, desv.tipica 9.221181
+INFORME PARCIAL->Posicion inicial: (1)
+Distancia al punto de destino: media 89.851196, desv.tipica 9.397753
+INFORME PARCIAL->Posicion inicial: (2)
+Distancia al punto de destino: media 88.931702, desv.tipica 9.368224
+INFORME PARCIAL->Posicion inicial: (3)
+Distancia al punto de destino: media 87.954697, desv.tipica 9.346704
+INFORME PARCIAL->Posicion inicial: (4)
+Distancia al punto de destino: media 86.823402, desv.tipica 9.339289
+INFORME PARCIAL->Posicion inicial: (5)
+Distancia al punto de destino: media 85.758598, desv.tipica 9.562926
+INFORME PARCIAL->Posicion inicial: (6)
+Distancia al punto de destino: media 84.801697, desv.tipica 9.600159
+INFORME PARCIAL->Posicion inicial: (7)
+Distancia al punto de destino: media 83.806900, desv.tipica 9.389927
+INFORME PARCIAL->Posicion inicial: (8)
+Distancia al punto de destino: media 83.131599, desv.tipica 9.214687
+INFORME PARCIAL->Posicion inicial: (9)
+Distancia al punto de destino: media 81.888496, desv.tipica 9.382098
+INFORME PARCIAL->Posicion inicial: (10)
+Distancia al punto de destino: media 80.816597, desv.tipica 9.480667
+INFORME PARCIAL->Posicion inicial: (11)
+Distancia al punto de destino: media 79.744904, desv.tipica 9.399872
+INFORME PARCIAL->Posicion inicial: (12)
+Distancia al punto de destino: media 78.851303, desv.tipica 9.385393
+INFORME PARCIAL->Posicion inicial: (13)
+Distancia al punto de destino: media 77.984398, desv.tipica 9.357010
+INFORME PARCIAL->Posicion inicial: (14)
+Distancia al punto de destino: media 76.901802, desv.tipica 9.392426
+INFORME PARCIAL->Posicion inicial: (15)
+Distancia al punto de destino: media 75.779297, desv.tipica 9.274523
+INFORME PARCIAL->Posicion inicial: (16)
+Distancia al punto de destino: media 74.984901, desv.tipica 9.468217
+INFORME PARCIAL->Posicion inicial: (17)
+Distancia al punto de destino: media 73.985497, desv.tipica 9.399827
+INFORME PARCIAL->Posicion inicial: (18)
+Distancia al punto de destino: media 72.797798, desv.tipica 9.508965
+INFORME PARCIAL->Posicion inicial: (19)
+Distancia al punto de destino: media 71.929100, desv.tipica 9.302431
+INFORME PARCIAL->Posicion inicial: (20)
+Distancia al punto de destino: media 70.839500, desv.tipica 9.336182
+INFORME PARCIAL->Posicion inicial: (21)
+Distancia al punto de destino: media 70.017097, desv.tipica 9.276155
+INFORME PARCIAL->Posicion inicial: (22)
+Distancia al punto de destino: media 68.962799, desv.tipica 9.306976
+INFORME PARCIAL->Posicion inicial: (23)
+Distancia al punto de destino: media 67.886803, desv.tipica 9.189650
+INFORME PARCIAL->Posicion inicial: (24)
+Distancia al punto de destino: media 66.902199, desv.tipica 9.222922
+INFORME PARCIAL->Posicion inicial: (25)
+Distancia al punto de destino: media 65.800102, desv.tipica 9.530878
+INFORME PARCIAL->Posicion inicial: (26)
+Distancia al punto de destino: media 64.837402, desv.tipica 9.481574
+INFORME PARCIAL->Posicion inicial: (27)
+Distancia al punto de destino: media 63.775799, desv.tipica 9.583605
+INFORME PARCIAL->Posicion inicial: (28)
+Distancia al punto de destino: media 62.802502, desv.tipica 9.469485
+INFORME PARCIAL->Posicion inicial: (29)
+Distancia al punto de destino: media 61.972000, desv.tipica 9.369865
+INFORME PARCIAL->Posicion inicial: (30)
+Distancia al punto de destino: media 60.926899, desv.tipica 9.358789
+INFORME PARCIAL->Posicion inicial: (31)
+Distancia al punto de destino: media 59.748100, desv.tipica 9.465678
+INFORME PARCIAL->Posicion inicial: (32)
+Distancia al punto de destino: media 59.009998, desv.tipica 9.418225
+INFORME PARCIAL->Posicion inicial: (33)
+Distancia al punto de destino: media 57.824501, desv.tipica 9.552435
+INFORME PARCIAL->Posicion inicial: (34)
+Distancia al punto de destino: media 56.839298, desv.tipica 9.332528
+INFORME PARCIAL->Posicion inicial: (35)
+Distancia al punto de destino: media 55.870800, desv.tipica 9.464347
+INFORME PARCIAL->Posicion inicial: (36)
+Distancia al punto de destino: media 54.874100, desv.tipica 9.183508
+INFORME PARCIAL->Posicion inicial: (37)
+Distancia al punto de destino: media 54.099899, desv.tipica 9.035744
+INFORME PARCIAL->Posicion inicial: (38)
+Distancia al punto de destino: media 52.817402, desv.tipica 9.342247
+INFORME PARCIAL->Posicion inicial: (39)
+Distancia al punto de destino: media 51.787998, desv.tipica 9.318859
+INFORME PARCIAL->Posicion inicial: (40)
+Distancia al punto de destino: media 50.971600, desv.tipica 9.248015
+INFORME PARCIAL->Posicion inicial: (41)
+Distancia al punto de destino: media 49.891800, desv.tipica 9.288386
+INFORME PARCIAL->Posicion inicial: (42)
+Distancia al punto de destino: media 49.110699, desv.tipica 9.112539
+INFORME PARCIAL->Posicion inicial: (43)
+Distancia al punto de destino: media 47.815201, desv.tipica 9.430348
+INFORME PARCIAL->Posicion inicial: (44)
+Distancia al punto de destino: media 46.902199, desv.tipica 9.208161
+INFORME PARCIAL->Posicion inicial: (45)
+Distancia al punto de destino: media 45.893700, desv.tipica 9.324131
+INFORME PARCIAL->Posicion inicial: (46)
+Distancia al punto de destino: media 44.872898, desv.tipica 9.194121
+INFORME PARCIAL->Posicion inicial: (47)
+Distancia al punto de destino: media 43.843201, desv.tipica 9.217628
+INFORME PARCIAL->Posicion inicial: (48)
+Distancia al punto de destino: media 42.939499, desv.tipica 9.151558
+INFORME PARCIAL->Posicion inicial: (49)
+Distancia al punto de destino: media 41.872398, desv.tipica 9.154859
+INFORME PARCIAL->Posicion inicial: (50)
+Distancia al punto de destino: media 41.056198, desv.tipica 8.906590
+INFORME PARCIAL->Posicion inicial: (51)
+Distancia al punto de destino: media 39.872101, desv.tipica 9.215322
+INFORME PARCIAL->Posicion inicial: (52)
+Distancia al punto de destino: media 39.062901, desv.tipica 8.911400
+INFORME PARCIAL->Posicion inicial: (53)
+Distancia al punto de destino: media 38.146500, desv.tipica 8.820184
+INFORME PARCIAL->Posicion inicial: (54)
+Distancia al punto de destino: media 37.090401, desv.tipica 8.869614
+INFORME PARCIAL->Posicion inicial: (55)
+Distancia al punto de destino: media 35.964500, desv.tipica 9.008137
+INFORME PARCIAL->Posicion inicial: (56)
+Distancia al punto de destino: media 34.970001, desv.tipica 8.747655
+INFORME PARCIAL->Posicion inicial: (57)
+Distancia al punto de destino: media 33.974201, desv.tipica 8.856393
+INFORME PARCIAL->Posicion inicial: (58)
+Distancia al punto de destino: media 33.091301, desv.tipica 8.777642
+INFORME PARCIAL->Posicion inicial: (59)
+Distancia al punto de destino: media 32.153400, desv.tipica 8.575208
+INFORME PARCIAL->Posicion inicial: (60)
+Distancia al punto de destino: media 31.110100, desv.tipica 8.560930
+INFORME PARCIAL->Posicion inicial: (61)
+Distancia al punto de destino: media 30.136700, desv.tipica 8.513735
+INFORME PARCIAL->Posicion inicial: (62)
+Distancia al punto de destino: media 29.083300, desv.tipica 8.503130
+INFORME PARCIAL->Posicion inicial: (63)
+Distancia al punto de destino: media 28.294300, desv.tipica 8.167175
+INFORME PARCIAL->Posicion inicial: (64)
+Distancia al punto de destino: media 27.234200, desv.tipica 8.235579
+INFORME PARCIAL->Posicion inicial: (65)
+Distancia al punto de destino: media 26.229300, desv.tipica 8.206124
+INFORME PARCIAL->Posicion inicial: (66)
+Distancia al punto de destino: media 25.269300, desv.tipica 8.089926
+INFORME PARCIAL->Posicion inicial: (67)
+Distancia al punto de destino: media 24.524401, desv.tipica 7.911108
+INFORME PARCIAL->Posicion inicial: (68)
+Distancia al punto de destino: media 23.435499, desv.tipica 7.791440
+INFORME PARCIAL->Posicion inicial: (69)
+Distancia al punto de destino: media 22.600800, desv.tipica 7.642244
+INFORME PARCIAL->Posicion inicial: (70)
+Distancia al punto de destino: media 21.545200, desv.tipica 7.612446
+INFORME PARCIAL->Posicion inicial: (71)
+Distancia al punto de destino: media 20.670401, desv.tipica 7.375648
+INFORME PARCIAL->Posicion inicial: (72)
+Distancia al punto de destino: media 19.851700, desv.tipica 7.188483
+INFORME PARCIAL->Posicion inicial: (73)
+Distancia al punto de destino: media 18.825600, desv.tipica 7.151511
+INFORME PARCIAL->Posicion inicial: (74)
+Distancia al punto de destino: media 18.079901, desv.tipica 6.904322
+INFORME PARCIAL->Posicion inicial: (75)
+Distancia al punto de destino: media 17.217501, desv.tipica 6.797779
+INFORME PARCIAL->Posicion inicial: (76)
+Distancia al punto de destino: media 16.118799, desv.tipica 6.709144
+INFORME PARCIAL->Posicion inicial: (77)
+Distancia al punto de destino: media 15.523200, desv.tipica 6.454799
+INFORME PARCIAL->Posicion inicial: (78)
+Distancia al punto de destino: media 14.641600, desv.tipica 6.328362
+INFORME PARCIAL->Posicion inicial: (79)
+Distancia al punto de destino: media 13.949600, desv.tipica 6.221103
+INFORME PARCIAL->Posicion inicial: (80)
+Distancia al punto de destino: media 13.095500, desv.tipica 5.976751
+INFORME PARCIAL->Posicion inicial: (81)
+Distancia al punto de destino: media 12.341300, desv.tipica 5.964979
+INFORME PARCIAL->Posicion inicial: (82)
+Distancia al punto de destino: media 11.643000, desv.tipica 5.757298
+INFORME PARCIAL->Posicion inicial: (83)
+Distancia al punto de destino: media 11.020800, desv.tipica 5.819997
+INFORME PARCIAL->Posicion inicial: (84)
+Distancia al punto de destino: media 10.274400, desv.tipica 5.543625
+INFORME PARCIAL->Posicion inicial: (85)
+Distancia al punto de destino: media 9.662100, desv.tipica 5.552244
+INFORME PARCIAL->Posicion inicial: (86)
+Distancia al punto de destino: media 9.038600, desv.tipica 5.694959
+INFORME PARCIAL->Posicion inicial: (87)
+Distancia al punto de destino: media 8.487300, desv.tipica 5.480606
+INFORME PARCIAL->Posicion inicial: (88)
+Distancia al punto de destino: media 7.953700, desv.tipica 5.768386
+INFORME PARCIAL->Posicion inicial: (89)
+Distancia al punto de destino: media 7.493400, desv.tipica 5.776979
+INFORME PARCIAL->Posicion inicial: (90)
+Distancia al punto de destino: media 7.327400, desv.tipica 6.479074
+INFORME PARCIAL->Posicion inicial: (91)
+Distancia al punto de destino: media 6.881300, desv.tipica 6.414447
+INFORME PARCIAL->Posicion inicial: (92)
+Distancia al punto de destino: media 6.639000, desv.tipica 6.612250
+INFORME PARCIAL->Posicion inicial: (93)
+Distancia al punto de destino: media 6.591400, desv.tipica 7.096413
+INFORME PARCIAL->Posicion inicial: (94)
+Distancia al punto de destino: media 6.443200, desv.tipica 7.344520
+INFORME PARCIAL->Posicion inicial: (95)
+Distancia al punto de destino: media 6.613400, desv.tipica 8.056304
+INFORME PARCIAL->Posicion inicial: (96)
+Distancia al punto de destino: media 6.859500, desv.tipica 8.385165
+INFORME PARCIAL->Posicion inicial: (97)
+Distancia al punto de destino: media 7.271200, desv.tipica 8.923374
+INFORME PARCIAL->Posicion inicial: (98)
+Distancia al punto de destino: media 7.604600, desv.tipica 9.118617
+INFORME PARCIAL->Posicion inicial: (99)
+Distancia al punto de destino: media 8.123800, desv.tipica 9.371619
+INFORME PARCIAL->Posicion inicial: (100)
+Distancia al punto de destino: media 9.259100, desv.tipica 9.884783
+
+INFORME ->
+Numero de veces que se repite: (10000)
+Posicion destino: (100)
+Alcance: (2)
+Probabilidad de plaza ocupada: (0.900000) 
+
+Mejor posicion inicial: 94 
+Mejor distancia: 6.443200 
