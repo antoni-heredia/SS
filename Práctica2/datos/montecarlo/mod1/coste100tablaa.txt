@@ -1,0 +1,1 @@
+No se ha introducido los parametros correctos./a.out  <cantidad maxima pedida>  <dias a simular> <tipo de tabla [a,b,c]> <beneficio por unidad> <coste devolucion> <coste> 

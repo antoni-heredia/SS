@@ -9,3 +9,6 @@
 \contentsline {subsection}{\numberline {2.3}Tiempo de vida}{11}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Tiempo de reparaci\IeC {\'o}n}{11}{subsection.2.4}
 \contentsline {section}{\numberline {3}Mi primer Modelo de Simulaci\IeC {\'o}n Continuo}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Campa\IeC {\~n}a de pesca}{15}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Maximizar capturas}{16}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Conclusi\IeC {\'o}n}{18}{subsubsection.3.2.1}

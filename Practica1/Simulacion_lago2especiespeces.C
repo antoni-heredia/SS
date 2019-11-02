@@ -51,7 +51,7 @@ double *  y_aux = new double[1];
 		return ( ( __C ) * ( __y[0] ) ) * ( ( ( __x[0] ) / ( __D ) ) - ( ( __y[0] ) / ( __E ) ) ) ;
 	}
 
-	// Function with Runge-Kutta of 4º order algorithm implementation for model.
+	// Function with Runge-Kutta of 4ï¿½ order algorithm implementation for model.
 	void  resolver (double _t0, double _tf, double * _res ){
 //		double *  x_aux = new double[1];
 //		double *  y_aux = new double[1];
@@ -143,13 +143,23 @@ double *  y_aux = new double[1];
 	//	cout << " tcom " << _tcom << endl;
 		_tcom = 10;
 
-		cerr << " Numero inicial de peces pequeños, x(0) => ";
+		cerr << " Numero inicial de peces pequeï¿½os, x(0) => ";
 		cin >> __x[0];
 	//	cout << " x(0) "<< __x[0] << endl;
 
 
 		cerr << " Numero inicial de peces grandes, y(0) => ";
 		cin >> __y[0];
+
+		double porcentaje  = 0;
+		cerr << " Porcentaje de peces capturados => ";
+		cin >> porcentaje;
+		porcentaje = 1 -porcentaje;
+		double dias = 0;
+		cerr << " Dias entre capturas => ";
+		cin >> dias;
+	
+
 	//	cout << " y(0) "<< __y[0] << endl;
 
 /*
@@ -181,11 +191,19 @@ double *  y_aux = new double[1];
 		double * aux = new double[2];
 		cout << "\tt\tx\ty" << endl;
 		cout << "\t" << _tinicio << "\t" << __x[0]<< "\t" << __y[0]<< endl;
-
+		
+		double por_capturas = 1-porcentaje;
+		double capturas;
 		for(double t=_tinicio ; t < (_tfin-10e-8) ; t += inc ){
+			if (fmod(t, dias) == 0 && t > 0.0)
+			{
+				capturas += __y[0]*por_capturas;
+				__y[0] *= porcentaje;
+			}
 			resolver( t, t + inc, aux );
 			cout << "\t" << aux[0]<< "\t" << aux[1]<< "\t" << aux[2]<< endl;
 		}
+		cout  << "\tPeces totales capturados: " << capturas << endl;
 	}
 
 

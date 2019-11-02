@@ -270,5 +270,161 @@ Ahora realizaremos experimentos con diferentes tiempos de reparación mínimos y
 \\\\
 Como podemos ver el tiempo  que tardan en reparar los radares tambien afecta mucho en el porcentaje de tiempo sin proteción. Para la misma cantidad de respuestos cuanto menos tarden en arreglar el radar menos tiempo estaremos sin su servicio. Por lo tanto a lo mejor convendría invertir mas en tener técnicos de reparación antes que tener muchos repuestos con el gasto en almacén que eso supondría. 
 \section{Mi primer Modelo de Simulación Continuo}
+Para hacer una aproximación al sistema veremos como afecta diferentes poblaciones de los distintos peces.\\
+\begin{itemize}
+	\item \textbf{Peces pequeños}: 1000
+	\item \textbf{Peces grandes}: 5,6,7
+	\item \textbf{Tiempo}: 100
+\end{itemize}
+En la Figura \ref{fig:peces1} podemos ver la comparación entre las tres simulaciones realizadas variando el numero de peces grandes.
+\begin{figure}[H]
+	\centering
+	\includegraphics{images/peces-1000-5-7.png}
+	\caption{Crecimiento de los peces pequeños con diferente cantidad de peces grandes.}
+	\label{fig:peces1}
+\end{figure}
+Podemos ver el crecimiento exponencial del crecimiento perfectamente. La linea verde indica cuando solo hay 5 peces grandes y la azul cuando hay 6. Aunque el crecimiento de la linea azul es bastante inferior a la verde se puede observar que el comportamiento es el mismo. Aunque no se aprecia bien, la linea morada, cuando hay siete peces grandes, converge rapidamente a cero ya que los peces grandes se comen a todos los peces pequeños rapidamente. Se puede observar la tendencia en la Figura \ref{fig:peces2}
+\begin{figure}[H]
+	\centering
+	\includegraphics{images/peces-1000-7.png}
+	\caption{Crecimiento de los peces pequeños con 7 peces grandes.}
+	\label{fig:peces2}
+\end{figure}
+Aunque estas graficas parezcan coherentes no hemos tenido en cuenta la cantidad de peces grandes que pueda a ver o que no se haya llegado a un punto en el que se pueda equilibrar el ecosistema. Por lo tanto después de realizar pruebas he encontrado un ecosistema inicial en el que se llegaría aun punto de equilibrio después de $X$ años sera el siguiente:
+\begin{itemize}
+	\item \textbf{Peces pequeños}: 1000
+	\item \textbf{Peces grandes}: 6
+	\item \textbf{Tiempo}: 10000
+\end{itemize}
+Como podemos ver en la Figura \ref{fig:subPecesGrandes1} la cantidad de peces grandes empieza a ser estable sobre el día 3000 y en este caso la cantidad de peces pequeños empieza a a ser estable también entorno al dia 3000. Aunque en este caso haya salido un tiempo parecido no es necesario que siempre sea así.
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{./images/pecesGrandes2.png}
+		\caption{Peces grandes}
+		\label{fig:subPecesGrandes1}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{./images/pecesPequenos2.png}
+		\caption{Peces pequeños}
+		\label{fig:subPecesPeque1}
+	\end{subfigure}
+	\caption{Ecosistema en equilibrio de ambos tipos de peces}
+	\label{fig:ecosistema1}
+\end{figure}
+\subsection{Campaña de pesca}
+Para ver como afecta una campaña de pesca una vez el ecosistema es estable, haremos que la periocidad de la campaña sea a partir de los 3000 dias y asi ver como afecta.
+\begin{itemize}
+	\item \textbf{Peces pequeños}: 1000
+	\item \textbf{Peces grandes}: 6
+	\item \textbf{Tiempo}: 10000
+	\item \textbf{Tiempo entre campaña de pesca}: 3000
+	\item \textbf{Porcentaje pescado}: 0.3
+\end{itemize}
+En la Figura \ref{fig:ecosistema2} podemos ver perfectamente como afecta la pesca del 30\% de la población de peces grandes. Cuando llega el día de pesca la población de peces grandes baja directamente pero la población de peces pequeños ba subiendo de forma continua y no a salto, esto se debe a que la población aumenta con un factor de natalidad. Mirando intuitivamente la grafica podemos ver como podemos realizar pescas cada menos tiempo o aumentar la cantidad de peces que pescamos.
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{./images/pesca1Grandes.png}
+		\caption{Peces grandes}
+		\label{fig:subPecesGrandes2}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{./images/pesca1Peque.png}
+		\caption{Peces pequeños}
+		\label{fig:subPecesPeque2}
+	\end{subfigure}
+	\caption{Ecosistema en equilibrio con pescas cada 3000 dias}
+	\label{fig:ecosistema2}
+\end{figure}
+
+Para comprobar si esos datos son correctos realizare otra prueba a ver si se podría realizar pescas cada menos tiempo y seguir teniendo un ecosistema mas o menos estable. Realizando pescas cada 1500 días y manteniendo el ecosistema inicial podríamos seguir teniendo un ecosistema estable. 
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{./images/pesca2Grandes.png}
+		\caption{Peces grandes}
+		\label{fig:subPecesGrandes3}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{./images/pesca2Peques.png}
+		\caption{Peces pequeños}
+		\label{fig:subPecesPeque3}
+	\end{subfigure}
+	\caption{Ecosistema en equilibrio con pescas cada 1500 dias}
+	\label{fig:ecosistema3}
+\end{figure}
+\subsection{Maximizar capturas}
+Para comparar estos datos he realizado una tabla donde indico las diferentes variables y la cantidad de peces capturados.\\\\
+\begin{tabular}{|c|c|c|}
+	\hline 
+	\textbf{Porcentaje pesca} & \textbf{Dias entre pescas} & \textbf{Total Capturados} \\ 
+	\hline 
+	0.3& 2000 & 19826.9 \\
+	0.3& 1500 & 29942.2 \\ 
+	0.3& 1000 & 44267 \\
+	0.3& 500 & 95676 \\
+	0.3& 100 & 513841 \\
+	\hline
+
+\end{tabular} 
+Aunque se puede pescar cada 100 días el ecosistema nunca llega a ser estable. Habría que mostrarle los datos a un ambientologo para deducir si es recomendable hacerlo o no. El ecosistema actuaria como se ve en la Figura \ref{fig:ecosistema4}
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{./images/pescaGrandePocosDias.png}
+		\caption{Peces grandes}
+		\label{fig:subPecesGrandes4}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{./images/pescaPequePocosDias.png}
+		\caption{Peces pequeños}
+		\label{fig:subPecesPeque4}
+	\end{subfigure}
+	\caption{Ecosistema con pescas del 30\% cada 100 dias}
+	\label{fig:ecosistema4}
+\end{figure}
+
+Ahora realizaremos pruebas cambiando la cantidad de peces que se capturan con una periodicidad fija de 1500 dias.\\
+\begin{tabular}{|c|c|c|}
+	\hline 
+	\textbf{Porcentaje pesca} & \textbf{Dias entre pescas} & \textbf{Total Capturados} \\ 
+	\hline 
+	0.3& 1500& 29942.2 \\
+	0.4& 1500 & 39834.5 \\ 
+	0.5& 1500 & 49637.3 \\
+	0.6& 1500 & 59368.1 \\
+	0.7& 1500 & 69137.8 \\
+	\hline
+\end{tabular}
+Podemos ver,analizando los datos, que aumentar la cantidad de peces capturados no parece buena una buena técnica para maximizar los beneficios. Ya que una vez que el sistema vuelve a ser estable la cantidad de peces que capturamos es la misma y no aumenta como se puede ver en la Figura \ref{fig:ecosistema5}. 
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{./images/pescaMasivaGrandes.png}
+		\caption{Peces grandes}
+		\label{fig:subPecesGrandes5}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{./images/pescaMasivapeque.png}
+		\caption{Peces pequeños}
+		\label{fig:subPecesPeque5}
+	\end{subfigure}
+	\caption{Ecosistema con pescas del 30\% cada 100 dias}
+	\label{fig:ecosistema5}
+\end{figure} 
+\subsubsection{Conclusión}
+Si queremos aumentar los beneficios yo disminuiría la cantidad de días entre pescas. De esta forma aunque pesquemos menos peces por pesca, estamos continuamente pescando. 
 \end{document}
 	
