@@ -8,26 +8,20 @@ using namespace std;
 using namespace std::chrono;
 
 bool servidor;
-double acum_cola, inicio_ocio, tiempo_ocio, tlleg, tserv;
-long long int atendidos, encola, infinito, cantSimulaciones, reloj, tiempo_llegada,
-    tiempo_salida, total_a_atender, tultsuc;
+double acum_cola, inicio_ocio, tiempo_ocio, reloj, tlleg, tserv, tiempo_salida, tiempo_llegada, tultsuc;
+long long int atendidos, encola, infinito, cantSimulaciones, total_a_atender;
 
-float generaLlegada(float tlleg)
+float generaLlegada(float tllegada)
 {
     float u = (float)((float)random() / (RAND_MAX + 1.0));
-    u = ceil(-tlleg * log(1 - u));
-    if (u == 0)
-        u = 1;
-    return u;
+
+    return (-tllegada * log(1 - u));
 }
 
-float generaServicio(float tserv)
+float generaServicio(float tservicio)
 {
-    // Generar valor aleatorio y redondearlo
     float u = (float)((float)random() / (RAND_MAX + 1.0));
-    u = ceil(-tserv * log(1 - u));
-
-    return u != 0 ? u : 1.0;
+    return (-tservicio * log(1 - u));
 }
 
 int main(int argc, char *argv[])
@@ -77,12 +71,12 @@ int main(int argc, char *argv[])
             if (reloj == tiempo_llegada)
             {
                 // Generar llegada
-                tiempo_llegada = reloj + static_cast<long long int>(generaLlegada(tlleg));
+                tiempo_llegada = reloj + (generaLlegada(tlleg));
 
                 if (servidor)
                 {
                     servidor = false;
-                    tiempo_salida = reloj + static_cast<long long int>(generaServicio(tserv));
+                    tiempo_salida = reloj + (generaServicio(tserv));
                     tiempo_ocio += reloj - inicio_ocio;
                 }
                 else
@@ -103,7 +97,7 @@ int main(int argc, char *argv[])
                     tultsuc = reloj;
                     encola--;
 
-                    tiempo_salida = reloj + static_cast<long long int>(generaServicio(tserv));
+                    tiempo_salida = reloj + (generaServicio(tserv));
                 }
                 else
                 {
@@ -131,7 +125,7 @@ int main(int argc, char *argv[])
     double colaMedia = tCola / cantSimulaciones;
     double mediaOcio = tOcio / cantSimulaciones;
 
-    cout << "\ntiempo_medio: " << tiempoMedio << " seg." << endl;
+    cout << endl << "tiempo_medio: " << tiempoMedio << " seg." << endl;
     cout << "cliente_medios: " << colaMedia << endl;
     cout << "tiempo_ocio: " << mediaOcio << endl;
 

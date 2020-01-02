@@ -1,14 +1,3 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Mi Segundo Modelo de Simulaci\IeC {\'o}n de Monte Carlo}{4}{section.1}
-\contentsline {subsection}{\numberline {1.1}Modelizaci\IeC {\'o}n por Monte Carlo}{4}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Modificaciones del Modelo}{7}{subsection.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1}Coste de devoluci\IeC {\'o}n fijo}{7}{subsubsection.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2}Coste de devoluci\IeC {\'o}n fijo pero decidiendo si devolver o no}{9}{subsubsection.1.2.2}
-\contentsline {section}{\numberline {2}Generadores de datos}{11}{section.2}
-\contentsline {subsection}{\numberline {2.1}Mejorando los Generadores}{11}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Reordenar valores}{11}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Busqueda binaria}{12}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Generaci\IeC {\'o}n en tiempo constante}{12}{subsubsection.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.4}Comparaci\IeC {\'o}n de los distintos metodos.}{12}{subsubsection.2.1.4}
-\contentsline {subsection}{\numberline {2.2}Generadores congruenciales}{14}{subsection.2.2}
-\contentsline {section}{\numberline {3}Fe de erratas}{14}{section.3}
+\contentsline {section}{\numberline {1}Cap\IeC {\'\i }tulo 1: Mi segundo modelo de simulaci\IeC {\'o}n discreto}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Simulaci\IeC {\'o}n con incremento fijo}{4}{subsection.1.1}

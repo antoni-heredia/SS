@@ -99,8 +99,8 @@ float generaservicio(float media)
 /* Procedimiento inicializacion */
 void inicializacion()
 {
-
-  srandom(time(NULL));
+  lsuc.clear();
+  cola.clear();
   reloj = 0.0;
   libres = m;
   encola = 0;
@@ -299,8 +299,8 @@ int main(int argc, char *argv[])
   sscanf(argv[3], "%f", &tlleg);
   sscanf(argv[4], "%f", &tserv);
   sscanf(argv[5], "%f", &numero_simulaciones);
+  srandom(time(NULL));
 
-  inicializacion();
   for (int i = 0; i < numero_simulaciones; i++)
   {
     inicializacion();

@@ -83,7 +83,8 @@ float tiempo_carga1max = 20.0;
 float tiempo_carga2max = 27.0;
 float tiempo_carga3max = 40.0;
 float tparada = 8760.0;
-
+bool afectan_tormentas = true;
+int total_toneladas = 0;
 /* Funciones y procedimientos */
 void inicializacion();
 void temporizacion();

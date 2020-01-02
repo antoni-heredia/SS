@@ -28,7 +28,9 @@ float generaServicio(float tserv)
 	float u = (float) ((float) random()/(RAND_MAX+1.0));
 	u = ceil(-tserv*log(1-u));
 
-    return u != 0 ? u : 1.0;
+    if(u == 0)
+        u = 1;
+	return u;
 }
 
 
