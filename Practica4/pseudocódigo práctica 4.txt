@@ -47,7 +47,7 @@ procedimiento one-step-euler(inp,out,tt,hh)
 
 
 procedimiento derivacion(est,f,tt) 
-// específico para el modelo considerado
+// especï¿½fico para el modelo considerado
 {
   f[0]=a11*est[0]-a12*est[0]*est[1];
   f[1]=a21*est[0]*est[1]}-a22*est[1];

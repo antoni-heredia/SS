@@ -1,0 +1,9 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Descripci\IeC {\'o}n del sistema}{3}{section.1}
+\contentsline {section}{\numberline {2}Experimento inicial}{3}{section.2}
+\contentsline {section}{\numberline {3}Probando diferentes $a_{ij}$}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Modificando $a_{11}$}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Modificando $a_{12}$}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Modificando $a_{21}$}{7}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Modificando $a_{22}$}{8}{subsection.3.4}
+\contentsline {section}{\numberline {4}Comparaci\IeC {\'o}n de los distintos metodos de integraci\IeC {\'o}n}{8}{section.4}
