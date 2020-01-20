@@ -1,0 +1,65 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[a4paper,bindingoffset=0.1in,%
+left=0.75in,right=0.75in,top=1in,bottom=1in,%
+footskip=.2in]{geometry}
+\usepackage[utf8]{inputenc} % Escribir con acentos, ~n...
+\usepackage{eurosym} % s´ımbolo del euro
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+\usepackage{listings}             % Incluye el paquete listing
+\usepackage[cache=false]{minted}
+\usepackage{graphics,graphicx, float} %para incluir imágenes y colocarlas
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{diagbox}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\begin{document}
+
+\title{Simulación de Sistemas. Ejercicio 1}
+
+\author{
+  Antonio Jesús Heredia Castillo\\
+}
+
+\date{}
+\maketitle
+\horrule{2pt}
+\section{Experimento}
+Para obtener el valor optimo de kilos de chocolate que debemos pedir en Agosto vamos a usar nuestro modelo de simulación. Ejecutaremos la simulación varias veces y haremos varias pruebas. \\
+Como el sistema que hemos creado es un modelo de Montecarlo y este ya lo hemos usado en las practicas. Sabemos que para que funcione de forma de correcta tenemos que ejecutar el sistema con un numero de repeticiones bastante alto, por ello vamos a realizar el experimento con un \textbf{num\_repeticiones:100000}\\
+\begin{center}
+\begin{tabular}{|c|c|}
+	\hline 
+	Ejecución & Mejor pedidio \\ 
+	\hline 
+	1&  619\\ 
+	\hline 
+	2&  617\\ 
+	\hline 
+	3&  623\\ 
+	\hline 
+	4&  618\\ 
+	\hline 
+	5&  619\\ 
+	\hline 
+	6&  623\\ 
+	\hline 
+	7&  622\\ 
+	\hline 
+\end{tabular} 
+\end{center}
+
+Como podemos ver, en todos los experimentos los valores obtenidos se encuentran en el intervalo $[617,623]$. \\
+
+Por lo tanto, podríamos a la hora de realizar el pedido elegir dos opciones. Pedir el numero de kilos mayor del intervalo, ya que no hay mucha diferencia o pedir la media de todos los experimentos que hemos realizado. La media es de \textbf{620.14kg}, que redondeando seria \textbf{620kg}.
+\end{document}
