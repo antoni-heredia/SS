@@ -5,6 +5,8 @@
         "ratio": "cpp",
         "ostream": "cpp",
         "cmath": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "*.tcc": "cpp",
+        "algorithm": "cpp"
     }
 }
